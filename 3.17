@@ -1,0 +1,3 @@
+number = int(input("Введите двузначное число: "))
+sum_digits = number // 10 + number % 10
+print(f"Сумма цифр: {sum_digits}")
